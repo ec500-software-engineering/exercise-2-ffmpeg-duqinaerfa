@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="855487d1-0ff4-4863-a79d-58d3db8eb7bc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_video/BTSAwake480.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/output_video/BTSAwake480.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_video/BTSAwake720.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/output_video/BTSAwake720.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_video/BTSDNA480.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/output_video/BTSDNA480.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_video/BTSDNA720.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/output_video/BTSDNA720.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_video/BTSEpiphany480.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/output_video/BTSEpiphany480.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_video/BTSEpiphany720.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/output_video/BTSEpiphany720.mp4" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,10 +18,11 @@
     <session id="109443259">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -58,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="45">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -107,7 +103,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,6 +119,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,12 +187,12 @@
     <frame x="0" y="23" width="1160" height="801" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1529517" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15563506" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49910554" visible="true" weight="0.32863188" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49910554" weight="0.32863188" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -256,8 +252,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="45">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

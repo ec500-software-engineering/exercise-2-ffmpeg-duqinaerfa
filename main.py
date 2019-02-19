@@ -2,7 +2,6 @@ import os
 import subprocess
 import queue
 import threading
-import asyncio
 
 input_path = '/Users/duqinmei/Github/exercise-2-ffmpeg-duqinaerfa/input_video'
 output_path = '/Users/duqinmei/Github/exercise-2-ffmpeg-duqinaerfa/output_video'
