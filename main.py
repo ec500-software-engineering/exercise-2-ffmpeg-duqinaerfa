@@ -10,9 +10,9 @@ output_path = '/Users/duqinmei/Github/exercise-2-ffmpeg-duqinaerfa/output_video'
 def convert(file):
     video_720 = "ffmpeg -i " + input_path + "/" + file + " -s hd720 -b:v 1M -r 30 " + output_path + "/" + file[:-4] + "720.mp4"
     video_480 = "ffmpeg -i " + input_path + "/" + file + " -s hd720 -b:v 1M -r 30 " + output_path + "/" + file[:-4] + "480.mp4"
-    video1 = subprocess.call(video_720, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT, shell=True)
+    subprocess.call(video_720, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT, shell=True)
     print('Convert ' + file + ' to 720P' + ' complete!')
-    video2 = subprocess.call(video_480, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT, shell=True)
+    subprocess.call(video_480, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT, shell=True)
     print('Convert ' + file + ' to 480P' + ' complete!')
 
 
@@ -20,7 +20,7 @@ def main():
     q = queue.Queue()
     thread_list = []
     i = 0
-    
+
     try:
         for file in os.listdir(input_path):
             if file.endswith('.mp4'):
