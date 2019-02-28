@@ -34,8 +34,8 @@ def test_duration():
 
     info_out_720 = float(info_out_7201['streams'][0]['duration'])
 
-    assert info_in == approx(info_out_480)
-    assert info_in == approx(info_out_720)
+    assert info_in == approx(info_out_480, rel=0.01)
+    assert info_in == approx(info_out_720, rel=0.01)
 
 
 if __name__ == '__main__':
