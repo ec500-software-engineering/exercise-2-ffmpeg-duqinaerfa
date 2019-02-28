@@ -1,6 +1,16 @@
 from pytest import approx
-import main_test
+import main as run
+import subprocess
+import json
 
+def ffprobe(file):
+    """ get media metadata """
+    meta = subprocess.check_output(['ffprobe', '-v', 'warning',
+                                	'-print_format', 'json',
+                                	'-show_streams',
+                                	'-show_format',
+                                	str(file)], universal_newlines = True)
+    return json.loads(meta)
 
 def durationtest():
 
@@ -11,11 +21,11 @@ def durationtest():
     fnout_720 = './test_720p.mp4'
 
 
-    info_in1 = main_test.ffprobe(fnin)
+    info_in1 = ffprobe(fnin)
 
-    info_out_4801 = main_test.ffprobe(fnout_480)
+    info_out_4801 = ffprobe(fnout_480)
 
-    info_out_7201 = main_test.ffprobe(fnout_720)
+    info_out_7201 = ffprobe(fnout_720)
 
 
     info_in = float(info_in1['streams'][0]['duration'])
@@ -29,4 +39,5 @@ def durationtest():
 
 
 if __name__ == '__main__':
+    run.convert()
     durationtest()
