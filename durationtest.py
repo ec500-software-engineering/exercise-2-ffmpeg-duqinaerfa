@@ -2,7 +2,7 @@ from pytest import approx
 import main_test
 
 
-def test_duration():
+def durationtest():
 
     fnin = './test.mp4'
 
@@ -29,4 +29,4 @@ def test_duration():
 
 
 if __name__ == '__main__':
-    test_duration()
+    durationtest()
