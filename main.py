@@ -17,7 +17,6 @@ async def convert(q):
 
 def main():
     q = queue.Queue()
-    thread_list = []
     i = 0
 
     try:
