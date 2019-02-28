@@ -13,6 +13,7 @@ async def convert(q):
     os.system("ffmpeg -i " + input_path + "/" + file + ' -r 30 -b 1M -s 720x480 ' + output_path + "/" + file[:-4] + "480.mp4")
     print('Convert ' + file + ' to 720P' + ' complete!')
     print('Convert ' + file + ' to 480P' + ' complete!')
+    return 'done!'
 
 
 def main():

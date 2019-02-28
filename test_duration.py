@@ -1,5 +1,5 @@
 from pytest import approx
-import main as run
+import main
 import subprocess
 import json
 
@@ -12,7 +12,7 @@ def ffprobe(file):
                                 	str(file)], universal_newlines = True)
     return json.loads(meta)
 
-def durationtest():
+def test_duration():
 
     fnin = './test.mp4'
 
@@ -39,5 +39,5 @@ def durationtest():
 
 
 if __name__ == '__main__':
-    run.convert()
-    durationtest()
+    main.convert()
+    test_duration()
